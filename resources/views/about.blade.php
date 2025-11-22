@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 px-4 md:px-2 lg:px-0">
+    <div class="grid grid-cols-1 gap-8 px-4 my-8 md:grid-cols-2 md:px-2 lg:px-0">
         <div class="col-span-1">
             <img src="{{ asset('image/syahreza.jpg') }}" alt="Syahreza Satria Alfath">
         </div>
         <div class="col-span-1">
-            <p class="font-extralight leading-8">
+            <p class="leading-8 font-extralight">
                 Hi, I'm Jester
                 <br><br>
                 I'm doing photography as a hobby, and I love to capture moments and create memories through my lens.
